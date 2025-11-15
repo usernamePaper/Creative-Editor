@@ -29,8 +29,7 @@ public class InfinityItemEditor {
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "infinityitemeditor";
     public static final String NAME = "Infinity Item Editor";
-
-    public static boolean BARRIER_VISIBLE = false;
+    
     public static final boolean DEBUG = true;
 
     public static Path DATAPATH = FMLPaths.GAMEDIR.get().resolve(MODID.concat("-data"));
